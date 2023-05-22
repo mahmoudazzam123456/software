@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STUDENTS' RESULT MANAGEMENT SYSTEM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="servicesstyles.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="app.js"></script>  
+</head>
+<style>
+    .list{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #00fecb;
+    margin-left: 35%;
+}
+
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+}
+table{
+    color: white;
+    border-color:#00fecb;
+    
+}
+label{
+    color: white;
+}
+</style>
+<body ng-app="checkOffApp">
+    <header>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="">
+        
+<div class="welcome-text">
+    <h1>subjects&nbsp<span>STUDENTS'&nbsp</span>LIST </h1>
+    
+    </div>
+</header>
+<div class="to-buy list" ng-controller="toBuyController as toBuy">
+    <label><b>sub Students<br></b></label>
+    <table border="1">
+    <tr><b><td style="width: 4cm;">Name</td><td style="width: 4cm;">files</td></b></tr>
+
+</table>
+
+    <ul class="items-list">
+        <li >
+            <table border="1">
+            <tr ><td style="width: 4cm;"></td><td style="width: 4cm;"></td></tr>
+
+            <tr>
+                <td>ml</td>
+                <td>    <input type="file" >         </td>
+                    </tr>
+
+                    <tr>
+                        <td>soft</td>
+                        <td>    <input type="file" >         </td>
+                            </tr>
+                            <tr>
+                                <td>kbs</td>
+                                <td>    <input type="file" >         </td>
+                                    </tr>
+                                    <tr>
+                                        <td>math</td>
+                                        <td>    <input type="file" >         </td>
+                                            </tr>
+                                            <tr>
+                                                <td>ml</td>
+                                                <td>    <input type="file" >         </td>
+                                                    </tr>
+                                                                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </table>
+            <button class="button"  > download</button>
+        </li>
+    </ul>
+    
+</div>
+
+
+
+</body>
+</html>

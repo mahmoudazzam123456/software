@@ -1,0 +1,69 @@
+
+body{
+
+	text-align:right;
+	text-decoration:none;
+	direction:ltr;
+  max-height: 86vh;	
+  margin: 0;
+}
+/*
+*{box-sizing: border-box;}*/
+/*style Sign up*/
+#bg-main{
+  background-color: rgba(7, 7, 7, 0.904);
+  max-width: 30%;
+  margin-top: 5%;
+}
+#titr{
+  color: #f8f4f4;
+  margin-top: 5px;
+}
+#Logout{
+  background: #F7CA18;
+  margin: 5px;
+  padding:5px;
+  border-radius: 5px;
+}
+#Login{
+  background: #6c757d82;
+  margin: 5px;
+  padding:5px;
+  border-radius: 5px;
+}
+#Logout a {
+  color: #f8f4f4;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#Login a{
+  color: #f8f4f4;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/*style input*/
+.form-label{
+  color: #f8f4f4;
+}
+.form-control{
+  background-color:#21252900!important;
+  color: #f8f4f4!important;
+}
+ ::placeholder{
+  color: #d8c9c9!important;
+}
+.form-control:hover{
+  border: 1px solid #F7CA18;
+}
+.btn-warning:hover{
+  font-weight: bold;
+}
+
+
+
+
+
