@@ -1,0 +1,28 @@
+#btn{
+   margin-bottom: 50px;
+   margin-top: 50 px;
+   
+}
+#name{
+    margin-bottom: 10px;
+    font:bold
+    
+}
+
+#txt1{
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+#acadamic-numbe{
+    font:bold
+}
+#password{
+    margin-bottom: 30px;
+    font:bold
+}
+
+.form{
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
